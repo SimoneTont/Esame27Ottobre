@@ -1,27 +1,131 @@
 /*HTML*/
 html
 {
-    font-family: 'Montserrat, sans-serif';
-    font-family: ;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /*Body*/
 body
 {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #393d41 ;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    margin: auto;
+}
+body img
+{
+    width: 100%;
+}
+body h2
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 /*Header*/
 header
 {
     background-color: black;
+    padding-top: 2rem;
+}
+header img
+{
+    width: 40%;
 }
 header div
 {
-    background-image: url('../images/banner.jpg');;
+    background-image: url('../images/banner.jpg');
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+header p
+{
+    margin-bottom: 2rem;
+}
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #25a2c3;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 header button
 {
     color: white;
     background-color: #f04c2f;
-    border-radius: 10%;
+    border-radius: 20%;
+    font-size: larger;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/*Article*/
+
+article div
+{
+    color: white;
+    background-color: #e22d0e;
+}
+article img
+{
+    border-radius: 50%;
+    width: 80%;
+}
+section p
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.Bianco
+{
+    font-size: xx-large;
+    color: white;
+}
+/*Aside*/
+aside
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: #dee1e3;
+    border-right: #dee1e3;
+    border-bottom: #dee1e3;
+}
+aside section
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid #dee1e3;
+    border-left: 1px solid #dee1e3;
+    border-right: 1px solid #dee1e3;
+}
+/*Footer*/
+footer
+{
+    color: white;
+    background-color: #25a2c3
+}
+footer h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #c8e7f0;;
+    font-weight: bold;
+    line-height: 1.5;
+}
+footer hr
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
