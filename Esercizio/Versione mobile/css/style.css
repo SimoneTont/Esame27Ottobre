@@ -1,0 +1,27 @@
+/*HTML*/
+html
+{
+    font-family: 'Montserrat, sans-serif';
+    font-family: ;
+}
+/*Body*/
+body
+{
+    text-align: center;
+    color: #393d41 ;
+}
+/*Header*/
+header
+{
+    background-color: black;
+}
+header div
+{
+    background-image: url('../images/banner.jpg');;
+}
+header button
+{
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 10%;
+}
