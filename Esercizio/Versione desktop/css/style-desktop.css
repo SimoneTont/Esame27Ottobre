@@ -142,9 +142,17 @@ aside section
     border-left: 1px solid #dee1e3;
     border-right: 1px solid #dee1e3;
 }
+aside div
+{
+    width: 30rem;
+    display: inline;
+    float: left;
+    margin-top: 10rem;
+}
 /*Footer*/
 footer
 {
+    margin-top: 35rem;
     color: white;
     background-color: #25a2c3
 }
